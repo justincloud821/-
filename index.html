@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="Una carta de cumpleaños escrita con amor.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="galeria.js" defer></script>
+  <title>Una pequeña cartita</title>
+</head>
+<body>
+  <main class="pagina">
+    <div class="decoracion" aria-hidden="true">
+      <span class="adorno corazon corazon-uno">♥</span>
+      <span class="adorno destello destello-uno">✦</span>
+      <span class="adorno corazon corazon-dos">♡</span>
+      <span class="adorno destello destello-dos">✧</span>
+      <span class="adorno corazon corazon-tres">♥</span>
+      <span class="adorno destello destello-tres">✦</span>
+      <span class="adorno corazon corazon-cuatro">♡</span>
+      <span class="adorno destello destello-cuatro">✧</span>
+    </div>
+
+    <section class="vista vista-carta" id="vista-carta">
+    <header class="encabezado">
+      <p class="etiqueta">UNA PEQUEÑA CARTITA</p>
+      <h1>Para Mi Bebita</h1>
+      <p class="introduccion">Una pequeña parte de todo mi amor.</p>
+    </header>
+
+    <section class="galeria-melody" aria-label="Imágenes de My Melody">
+      <figure class="imagen-melody imagen-melody-recorte">
+        <img src="img/melody.png" alt="My Melody con su capucha rosa" loading="lazy">
+      </figure>
+      <figure class="imagen-melody">
+        <img src="img/melody1.png" alt="My Melody abrazando a un peluche" loading="lazy">
+      </figure>
+      <figure class="imagen-melody">
+        <img src="img/melody2.png" alt="My Melody con un ramo de flores" loading="lazy">
+      </figure>
+      <figure class="imagen-melody">
+        <img src="img/melody3.jpg" alt="Ilustración rosa de My Melody" loading="lazy">
+      </figure>
+      <figure class="imagen-melody">
+        <img src="img/melody4.jpg" alt="My Melody rodeada de corazones" loading="lazy">
+      </figure>
+      <figure class="imagen-melody">
+        <img src="img/melody5.png" alt="My Melody rodeada de corazones" loading="lazy">
+      </figure>
+    </section>
+
+    <section class="carta" aria-label="Carta de cumpleaños editable">
+      <div class="detalle-superior" aria-hidden="true"><span></span></div>
+      <label class="sr-only" for="titulo">Un día muy especial</label>
+      <input
+        class="titulo-carta"
+        id="titulo"
+        type="text"
+        value="Feliz cumpleaños, mi amor"
+        maxlength="80"
+        aria-label="Título de la carta"
+      >
+      <p class="separador" aria-hidden="true">♡</p>
+      <div
+        class="mensaje"
+        id="mensaje"
+        contenteditable="true"
+        role="textbox"
+        aria-multiline="true"
+        aria-label="Mensaje de la carta"
+        spellcheck="true"
+      >
+        <p>Primero que nd amor feliz cumple mia mor mio💕💕</p>
+        <p>SJSJSjj se que esta cartita no es suficiente ppara demostrate todo amor, pero quiero decirle y desearle un felis cumpleaños decirle ademas la amooo mucho me siento feliss contigo mamoy que es una de las personas mas lindaa del mundo con un gran corachoon una hermosa mirada, tanto q sus ojtos me deslumbran sjjsjsj</p>
+        <p>TE AMMOOOUUU AMOR quiero decirte ademas en en este dia de su cumpleaños q siempre estare con usted, usted mi niña se merece todo amor del mundo y aunq se que hay personas malas y que me le dicen cosas feas, no se ponga tite amor ñio les haga caso a esas personas Amor usted se merece td, amor, comprencion, cariño, detalles lindos y hermosos amor, y yioo sere esa persona que intenta darte de td para vverla feliz y contenta, sjsjjs amor estoy maravillado con usted usted es una mujer tan hermosa amor jsjs me matas con tus labios, tus ojitos lindos, toooooooooooodooooooooooooo amor, jsjsjs FELII CUMPLEAÑOS AMORMIOOO💕💕💕</p>
+        <p>EN ESTE DIA ademas de decirle tanto q la amo tanto decirle q estoy orgulloso amor de usted orgulloso por tus logros, por esas veses q sientes q yia no puedes mas, y siempre eres fuerte orgulloso por todo tu esfurzo de todos los dias, por ser una mujer sorrendente que siempre me saca animos y me hace sentir bien en mis momento por hacerme sentir seguro jssjsj jsjsj AMORRRR ME EXTENDI AMORRRR SJSJSJSJSJSJSJJSJSJJSJSJJSJS CON LA CARTA SJJSJS PERO QUEIRO DESIRLE Q LA AMOOOOO QUE SIEMPRE ESTARE CON USTED y espero q este diaa sea de lo mas feliz en su cumpleaños y q lo disfrute mucho mucho mucho amor FELIZZZ CUMPLEEE MIA AMOR, AREE DE TODO PARA ESTAR CON USTED EN UN FUTURO JUSTOS Y NUESTRA BEBITA HERMOSA COMO USTED UNA TORTUGUITA O UN CONEJITO JSJSJS Y CON UNA CASITA SOLO NOSOTROS NUSTRA BEBE Y NUESTRAS MASCOTAS AMOR SJSJJSJS, EN FIN AMOR TE AMOOOOOOO MUCHOOO FELIZZZ CUMLLEEE BEBE 💕💕💕</p>
+      </div>
+      <p class="firma">ME EXTENDI AMOR PERO CON MUCHO AMOR FELISSS CUMPLI MI GYBYYYYY MI ESPOSSAAA💕💕💕</p>
+    </section>
+
+    <p class="nota">TE AMOOOUUUU.</p>
+    <button class="boton-collage" id="mostrar-collage" type="button" aria-controls="vista-collage">
+      Ver nuestros recuerdos <span aria-hidden="true">♡</span>
+    </button>
+    </section>
+
+    <section class="vista vista-collage" id="vista-collage" aria-labelledby="titulo-recuerdos" hidden>
+      <header class="encabezado-recuerdos">
+        <p class="etiqueta">Foticos amor💕💕</p>
+        <h2 id="titulo-recuerdos" tabindex="-1">Un pedacito de ti amor 💕💕</h2>
+        <p class="introduccion">Toca una foto para verla más grande.</p>
+      </header>
+
+      <div class="collage">
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(1).jpeg" data-alt="Foto de un recuerdo especial, 1" data-frase="sjsjs Esta foto amor me encantoo es una q me enviooo en nuestra appp sjsjs amooo cuando me dise q me ama 💕" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 1">
+          <img src="img%20collague/img1%20(1).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(2).jpeg" data-alt="Foto de un recuerdo especial, 2" data-frase="esta es otra fotito amor de nuestra app fuee la primera mro y la amouuuu siempre esta en mi corazon💕" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 2">
+          <img src="img%20collague/img1%20(2).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(3).jpeg" data-alt="Foto de un recuerdo especial, 3" data-frase="Como frase amor AMOOOOO TUS OJITOSSSSS ME ENCANTAN jjsjsj esta es uan instantanea de instaa y ayyyy me enamoraa mashhh mi bebita 💕💕" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 3">
+          <img src="img%20collague/img1%20(3).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(4).jpeg" data-alt="Foto de un recuerdo especial, 4" data-frase="Eshta es una fotito amor q me envioo y justoo con las otras q me enviooooo lass amoooooooooooooo mi niñaaa 💕💕" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 4">
+          <img src="img%20collague/img1%20(4).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(5).jpeg" data-alt="Foto de un recuerdo especial, 5" data-frase="SJJSJS esta es una cap que hise amor en una llamada y amorrrrrr me encantoooooooooo💕💕💕♥" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 5">
+          <img src="img%20collague/img1%20(5).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(6).jpeg" data-alt="Foto de un recuerdo especial, 6" data-frase="Y AMORRRRRR  como olvidar esha fotito suya de pequeñaaa hayyyyyyy usted es tan hermosaaa dede pequeñaaaa amorrrr hermosshaaa 💕💕💕💕 LA AMOUUU" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 6">
+          <img src="img%20collague/img1%20(6).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(7).jpeg" data-alt="Foto de un recuerdo especial, 7" data-frase="Estaaa me gusta mucho shaaa fue de las rimeras q me mandooo amorrr y siento tan lindo al recordar a mi bebita hermohaa en ese tiempo cuando nos conociamos 💕💕💕💕 " aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 7">
+          <img src="img%20collague/img1%20(7).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(8).jpeg" data-alt="Foto de un recuerdo especial, 8" data-frase="Estaaa amorrrrrr hayyyy me mata sjjsjs me gusta me encataaaa me gusta cada fotio suyaa la amoouuu solo con verla amorrrrr💕💕💕💕💕" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 8">
+          <img src="img%20collague/img1%20(8).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(9).jpeg" data-alt="Foto de un recuerdo especial, 9" data-frase="AMORRR taambien nunca me cansare de decirle estooo AMOOOOOOO SUS OJITOSSS AMORRR ME ENCANTAN DEME UNA BEBE ASHIII COMO USTED DE HERMOSSA AMOR PORFIS 💕💕💕💕" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 9">
+          <img src="img%20collague/img1%20(9).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(10).jpeg" data-alt="Foto de un recuerdo especial, 10" data-frase="Ñio sabeee como me puuse al encontrar esta ft en mi celllll beseeeee el celularr amorrrrrrr 💕💕💕💕" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 10">
+          <img src="img%20collague/img1%20(10).jpeg" alt="" loading="lazy">
+        </button>
+        <button class="foto-recuerdo" type="button" data-foto="img%20collague/img1%20(11).jpeg" data-alt="Foto de un recuerdo especial, 11" data-frase="AMOR SIMPLEMENTE ME QUEDA DESIR..... TE AMOOOO AMOOO TODO DE TIIII ME ENCANTAS BB ESTA FT ES LA MJR CUANDO ME DAS BEESITOS TE AMOOOOO💕💕💕💕" aria-haspopup="dialog" aria-label="Abrir foto del recuerdo 11">
+          <img src="img%20collague/img1%20(11).jpeg" alt="" loading="lazy">
+        </button>
+      </div>
+
+      <button class="boton-collage boton-volver" id="volver-carta" type="button" aria-controls="vista-carta">
+        <span aria-hidden="true">♡</span> Volver a la cartita
+      </button>
+    </section>
+
+    <dialog class="ventana-recuerdo" id="ventana-recuerdo" aria-labelledby="titulo-ventana">
+      <div class="contenido-ventana">
+        <button class="cerrar-ventana" type="button" aria-label="Cerrar ventana">×</button>
+        <h2 class="sr-only" id="titulo-ventana">Un recuerdo especial</h2>
+        <img class="foto-ampliada" alt="">
+        <p class="frase-ampliada"></p>
+      </div>
+    </dialog>
+  </main>
+</body>
+</html>
